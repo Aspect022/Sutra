@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 980" fill="none">
+  <rect width="800" height="980" fill="#E9DED0"/>
+  <path d="M0 350c145-52 198-31 316 24 125 59 230 49 484-62v668H0V350Z" fill="#760813"/>
+  <path d="M0 475c182-78 278-23 405 27 116 45 230 8 395-65" stroke="#C89B63" stroke-width="3" opacity=".8"/>
+  <path d="M0 495c182-78 278-23 405 27 116 45 230 8 395-65" stroke="#E3C9A7" stroke-width="1" opacity=".7"/>
+  <path d="M104 0c52 132 54 204 11 337M203 0c42 147 39 237-1 368M615 0c-53 152-56 257-19 386M712 0c-34 133-31 231 4 343" stroke="#C89B63" stroke-width="2" opacity=".48"/>
+  <circle cx="401" cy="473" r="8" fill="#E3C9A7"/><circle cx="360" cy="485" r="5" fill="#C89B63"/><circle cx="443" cy="480" r="5" fill="#C89B63"/>
+  <text x="400" y="890" fill="#FFF9F0" font-family="Georgia,serif" font-size="28" letter-spacing="8" text-anchor="middle">SUTRA</text>
+</svg>
