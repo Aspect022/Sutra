@@ -35,11 +35,11 @@ const organizationSchema = {
 export const metadata: Metadata = {
   metadataBase: siteUrl ? new URL(siteUrl) : undefined,
   title: {
-    default: "Sutra - Weaving Timeless Stories",
+    default: "Sutra: Weaving Timeless Stories",
     template: "%s | Sutra Sarees",
   },
   description:
-    "Sutra - Weaving Timeless Stories. Discover handwoven silk sarees and everyday drapes shaped by Indian craft and modern elegance.",
+    "Sutra: Weaving Timeless Stories. Discover handwoven silk sarees and everyday drapes shaped by Indian craft and modern elegance.",
   alternates: siteUrl ? { canonical: siteUrl } : undefined,
   robots: {
     index: true,
@@ -58,17 +58,17 @@ export const metadata: Metadata = {
     apple: "/brand/sutra-logo.jpg",
   },
   openGraph: {
-    title: "Sutra - Weaving Timeless Stories",
+    title: "Sutra: Weaving Timeless Stories",
     description: "Discover handwoven silk sarees and everyday drapes shaped by Indian craft and modern elegance.",
     siteName: "Sutra",
     type: "website",
     locale: "en_IN",
     ...(siteUrl ? { url: siteUrl } : {}),
-    ...(socialLogo ? { images: [{ url: socialLogo, width: 1254, height: 1254, alt: "Sutra - Weaving Timeless Stories" }] } : {}),
+    ...(socialLogo ? { images: [{ url: socialLogo, width: 1254, height: 1254, alt: "Sutra: Weaving Timeless Stories" }] } : {}),
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sutra - Weaving Timeless Stories",
+    title: "Sutra: Weaving Timeless Stories",
     description: "Discover handwoven silk sarees and everyday drapes shaped by Indian craft and modern elegance.",
     ...(socialLogo ? { images: [socialLogo] } : {}),
   },
