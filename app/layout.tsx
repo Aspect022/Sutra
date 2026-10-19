@@ -10,6 +10,7 @@ const organizationSchema = {
     {
       "@type": "Organization",
       name: "Sutra",
+      email: "thesutraasarees@gmail.com",
       description: "Handwoven sarees and everyday drapes, crafted in India.",
       telephone: "+916361312135",
       sameAs: ["https://www.instagram.com/thesutraasarees/"],
@@ -34,11 +35,11 @@ const organizationSchema = {
 export const metadata: Metadata = {
   metadataBase: siteUrl ? new URL(siteUrl) : undefined,
   title: {
-    default: "Handwoven Sarees in Bengaluru | Sutra",
+    default: "Sutra — Weaving Timeless Stories",
     template: "%s | Sutra Sarees",
   },
   description:
-    "Explore Sutra's handwoven silk and everyday sarees, shaped by Indian craft and modern elegance. Browse the collection and enquire on WhatsApp.",
+    "Sutra — Weaving Timeless Stories. Discover handwoven silk sarees and everyday drapes shaped by Indian craft and modern elegance.",
   alternates: siteUrl ? { canonical: siteUrl } : undefined,
   robots: {
     index: true,
@@ -57,8 +58,8 @@ export const metadata: Metadata = {
     apple: "/brand/sutra-logo.jpg",
   },
   openGraph: {
-    title: "Handwoven Sarees in Bengaluru | Sutra",
-    description: "Sarees with a modern soul, woven to carry the beauty of timeless stories.",
+    title: "Sutra — Weaving Timeless Stories",
+    description: "Discover handwoven silk sarees and everyday drapes shaped by Indian craft and modern elegance.",
     siteName: "Sutra",
     type: "website",
     locale: "en_IN",
@@ -67,8 +68,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Handwoven Sarees in Bengaluru | Sutra",
-    description: "Sarees with a modern soul, woven to carry the beauty of timeless stories.",
+    title: "Sutra — Weaving Timeless Stories",
+    description: "Discover handwoven silk sarees and everyday drapes shaped by Indian craft and modern elegance.",
     ...(socialLogo ? { images: [socialLogo] } : {}),
   },
 };
