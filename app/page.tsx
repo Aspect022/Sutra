@@ -2,7 +2,7 @@ import { Catalog } from "@/components/catalog";
 import { CartButton } from "@/components/cart";
 import { getProducts } from "@/lib/products";
 
-const heroImage = "/sutra-hero-editorial.jpg";
+const heroImage = "/sutra-hero-editorial-hq.webp";
 
 const collections = [
   {
