@@ -85,7 +85,7 @@ export default async function Home() {
           <p className="hero-intro">Sarees with a modern soul, woven to carry the beauty of timeless stories. A considered edit of heirloom silk, tactile detail, and expressive color.</p>
           <a className="button button-light" href="#collection">Discover the collection <span aria-hidden="true">↗</span></a>
         </div>
-        <div className="hero-side-note">HANDWOVEN STORIES <span>—</span> WORN YOUR WAY</div>
+        <div className="hero-side-note">HANDWOVEN STORIES <span>-</span> WORN YOUR WAY</div>
         <div className="hero-index"><span>01</span><i /> 03</div>
       </section>
 
@@ -157,7 +157,7 @@ export default async function Home() {
       <footer id="contact" className="site-footer">
         <div className="footer-main">
           <div><p className="eyebrow">SUTRA · BENGALURU</p><h2>Wear a story<br /><em>worth keeping.</em></h2><a className="footer-cta" href="#collection">Find your piece <span>↗</span></a></div>
-          <div className="footer-contact"><p className="eyebrow">CONNECT</p><p>SUTRA — Weaving Timeless Stories</p><p>Bengaluru, Karnataka 560076</p><p>Pan India shipping</p><a href="tel:+916361312135">+91 63613 12135</a><a href="mailto:thesutraasarees@gmail.com">thesutraasarees@gmail.com ↗</a><a href="https://www.instagram.com/thesutraasarees/" target="_blank" rel="noreferrer">@thesutraasarees ↗</a></div>
+          <div className="footer-contact"><p className="eyebrow">CONNECT</p><p>SUTRA - Weaving Timeless Stories</p><p>Bengaluru, Karnataka 560076</p><p>Pan India shipping</p><a href="tel:+916361312135">+91 63613 12135</a><a href="mailto:thesutraasarees@gmail.com">thesutraasarees@gmail.com ↗</a><a href="https://www.instagram.com/thesutraasarees/" target="_blank" rel="noreferrer">@thesutraasarees ↗</a></div>
         </div>
         <div className="footer-bottom"><a className="footer-wordmark" href="#top">sutra</a><span>© 2026 Sutra. Crafted with heritage in mind.</span><a href="#top">BACK TO TOP ↑</a></div>
       </footer>

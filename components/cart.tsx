@@ -110,7 +110,7 @@ export function AddToCartButton({ product }: { product: Product }) {
 }
 
 function whatsappCheckoutUrl(items: CartLine[], total: number) {
-  const order = items.map(({ product, quantity }) => `• ${product.name} × ${quantity} — ₹${(product.price * quantity).toLocaleString("en-IN")}`).join("\n");
+  const order = items.map(({ product, quantity }) => `• ${product.name} × ${quantity} - ₹${(product.price * quantity).toLocaleString("en-IN")}`).join("\n");
   const message = `Hello Sutra, I'd like to enquire about these pieces:\n${order}\n\nEstimated total: ₹${total.toLocaleString("en-IN")}\nPlease share availability and delivery details.`;
   return `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 }

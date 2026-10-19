@@ -13,7 +13,7 @@ npm run dev
 
 Start from [`sutra-catalog-template.xlsx`](./sutra-catalog-template.xlsx). Import it into Google Sheets, keep the first tab named `Products`, and add one product per row.
 
-1. Upload product photos to Drive. Set each photo's general access to “Anyone with the link — Viewer,” then paste its share URL or file ID into `image`. Private Drive photos cannot appear on the public storefront.
+1. Upload product photos to Drive. Set each photo's general access to “Anyone with the link - Viewer,” then paste its share URL or file ID into `image`. Private Drive photos cannot appear on the public storefront.
 2. Make the sheet viewable to the storefront (for example, publish the `Products` tab as CSV, or grant public viewer access).
 3. Put either the published CSV URL or the Google Sheets edit URL in `GOOGLE_SHEET_CSV_URL` in `.env.local`. Edit URLs are converted to the read-only CSV export endpoint automatically (the first tab is used unless the URL includes a `gid`). The site refreshes the feed every five minutes and keeps its sample catalog if the sheet is unavailable.
 4. Set `NEXT_PUBLIC_WHATSAPP_PHONE` to the business WhatsApp number in international format, digits only. Product “Buy now” opens a prefilled enquiry for that item. The bag keeps selected products in the browser and opens a single WhatsApp message with quantities and an estimated total.
