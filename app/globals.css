@@ -267,10 +267,10 @@ button, a, select { -webkit-tap-highlight-color: transparent; }
   .cart-trigger-label { font-size: 10px; }
   .desktop-nav { display: none; }
   .header-link { font-size: 10px; }
-  .hero { height: auto; min-height: 620px; max-height: none; display: flex; align-items: center; padding: 78px 0 92px; }
+  .hero { height: auto; min-height: 700px; max-height: none; display: flex; align-items: center; padding: 78px 0 92px; }
   .hero-image img { object-position: 25% center; }
   .hero-wash { background: linear-gradient(90deg, rgba(30,15,16,.67), rgba(30,15,16,.08)), linear-gradient(0deg, rgba(36,15,15,.35), transparent 35%); }
-  .hero-copy { position: relative; inset: auto; width: auto; max-width: none; margin: 0 8%; transform: none; animation: rise .95s .16s both; }
+  .hero-copy { position: relative; inset: auto; width: auto; max-width: none; margin: -16px 8% 0; transform: none; animation: rise .95s .16s both; }
   .hero-eyebrow { margin-bottom: 20px; }
   .hero h1 { font-size: clamp(44px, 12vw, 58px); line-height: .94; }
   .hero-intro { max-width: 315px; margin: 19px 0 24px; font-size: 11px; }
