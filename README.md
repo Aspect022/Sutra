@@ -11,7 +11,7 @@ npm run dev
 
 ## Google Sheets catalog
 
-Start from [`sutra-catalog-template.xlsx`](./sutra-catalog-template.xlsx). Import it into Google Sheets, keep the first tab named `Products`, and add one product per row.
+Use [`sutra-catalog-template.xlsx`](./sutra-catalog-template.xlsx) as a blank template. The current nine-product update is in [`sutra-catalog-update.xlsx`](./sutra-catalog-update.xlsx), with the codebase backup in [`data/catalog.json`](./data/catalog.json). Import the update workbook into Google Sheets, keep the first tab named `Products`, and add one product per row for future edits.
 
 1. Upload product photos to Drive. Set each photo's general access to “Anyone with the link - Viewer,” then paste its share URL or file ID into `image`. Private Drive photos cannot appear on the public storefront.
 2. Make the sheet viewable to the storefront (for example, publish the `Products` tab as CSV, or grant public viewer access).
