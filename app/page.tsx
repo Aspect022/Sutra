@@ -2,7 +2,7 @@ import { Catalog } from "@/components/catalog";
 import { CartButton } from "@/components/cart";
 import { getProducts } from "@/lib/products";
 
-const heroImage = "/sutra-hero-editorial-hq.webp";
+const heroDesktopImage = "/sutra-hero-desktop.webp";
 
 const collections = [
   {
@@ -77,7 +77,10 @@ export default async function Home() {
       </header>
 
       <section className="hero" id="top">
-        <div className="hero-image" style={{ backgroundImage: `url('${heroImage}')` }} role="img" aria-label="A woman in a red saree ascending a sandstone haveli staircase, her drape flowing behind her" />
+        <picture className="hero-image">
+          <source media="(max-width: 620px)" srcSet="/sutra-hero-mobile.webp" />
+          <img src={heroDesktopImage} alt="A woman in a red saree ascending a sandstone haveli staircase, her drape flowing behind her" fetchPriority="high" />
+        </picture>
         <div className="hero-wash" />
         <div className="hero-copy">
           <p className="eyebrow hero-eyebrow"><span /> EST. 2026 · BENGALURU</p>
