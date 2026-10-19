@@ -115,13 +115,13 @@ export function Catalog({ products }: { products: Product[] }) {
                 <span className="product-category">{product.category === "Timeless Sarees" ? "THE SAREE EDIT" : product.category === "Luxury Fabrics" ? "THE FABRIC EDIT" : "FINISHING TOUCHES"}</span>
                 {product.available === false ? <span className="product-status">CURRENTLY UNAVAILABLE</span> : <span className="product-view" aria-hidden="true">✳</span>}
               </div>
-              <div className="product-info"><div><h3>{product.name}</h3><p>{product.subtitle}</p></div><strong>{product.priceLabel}</strong></div>
-              <p className="product-description">{product.description}</p>
-              {(product.material || product.color || product.care || product.options?.length) ? <div className="product-options">
-                {product.material ? <span>Material: {product.material}</span> : null}
-                {product.color ? <span>Color: {product.color}</span> : null}
-                {product.care ? <span>Care: {product.care}</span> : null}
-                {product.options?.map((option) => <span key={option.name}>{option.name}: {option.values.join(" · ")}</span>)}
+              <div className="product-info"><div><h3>{product.name}</h3>{product.subtitle ? <p>{product.subtitle}</p> : null}</div><strong>{product.priceLabel}</strong></div>
+              {product.description ? <p className="product-description">{product.description}</p> : null}
+              {(product.material || product.color || product.care || product.options?.some((option) => option.values.length > 0)) ? <div className="product-options">
+                {product.material ? <span>{product.material}</span> : null}
+                {product.color ? <span>Color · {product.color}</span> : null}
+                {product.care ? <span>Care · {product.care}</span> : null}
+                {product.options?.filter((option) => option.values.length > 0).map((option) => <span key={option.name}>{option.name}: {option.values.join(" · ")}</span>)}
               </div> : null}
               <div className="product-actions">
                 <AddToCartButton product={product} />
