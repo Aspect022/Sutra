@@ -177,7 +177,7 @@ button, a, select { -webkit-tap-highlight-color: transparent; }
 .journal-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
 .journal-photo { height: 28vw; min-height: 250px; max-height: 360px; position: relative; overflow: hidden; display: flex; align-items: end; padding: 21px; background-size: cover; background-position: center; }
 .journal-photo::before { content: ''; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(36,17,17,.5), transparent 55%); }
-.journal-photo-one { background-image: url('/sutra-campaign-hero.png'); background-position: 65% 42%; }
+.journal-photo-one { background-image: url('/sutra-campaign-hero.webp'); background-position: 65% 42%; }
 .journal-photo-two { background-image: url('https://static.wixstatic.com/media/26f6c4_8a32251358634c45bb8c7d5121477e9e~mv2.jpg/v1/fill/w_1100,h_670,al_c,q_85/Timeless%20Silk%20Collections.jpg'); }
 .journal-photo > span { position: relative; color: #fff9f0; font-size: 8px; letter-spacing: .2em; }
 .journal-meta { margin: 18px 0 9px; color: var(--brass); font-size: 8px; letter-spacing: .13em; }
