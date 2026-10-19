@@ -135,7 +135,7 @@ export function Catalog({ products }: { products: Product[] }) {
       ) : (
         <div className="empty-state"><span>✳</span><p>No pieces found. Try another search or category.</p><button onClick={() => { setQuery(""); setCategory("All pieces"); }}>Show all pieces</button></div>
       )}
-      <div className="catalog-note"><span>✳</span><p>Every piece has a story. <a href="https://wa.me/919019181160?text=Hello%20Sutra%2C%20I%27d%20love%20some%20help%20choosing%20a%20piece." target="_blank" rel="noreferrer">Let us help you find yours ↗</a></p></div>
+      <div className="catalog-note"><span>✳</span><p>Every piece has a story. <a href="https://wa.me/916361312135?text=Hello%20Sutra%2C%20I%27d%20love%20some%20help%20choosing%20a%20piece." target="_blank" rel="noreferrer">Let us help you find yours ↗</a></p></div>
     </section>
   );
 }

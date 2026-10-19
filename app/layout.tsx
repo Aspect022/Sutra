@@ -11,7 +11,7 @@ const organizationSchema = {
       "@type": "Organization",
       name: "Sutra",
       description: "Handwoven sarees and everyday drapes, crafted in India.",
-      telephone: "+919019181160",
+      telephone: "+916361312135",
       sameAs: ["https://www.instagram.com/thesutraasarees/"],
       address: {
         "@type": "PostalAddress",

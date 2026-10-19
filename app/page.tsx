@@ -157,7 +157,7 @@ export default async function Home() {
       <footer id="contact" className="site-footer">
         <div className="footer-main">
           <div><p className="eyebrow">SUTRA · BENGALURU</p><h2>Wear a story<br /><em>worth keeping.</em></h2><a className="footer-cta" href="#collection">Find your piece <span>↗</span></a></div>
-          <div className="footer-contact"><p className="eyebrow">CONNECT</p><p>SUTRA — Weaving Timeless Stories</p><p>Bengaluru, Karnataka 560076</p><p>Pan India shipping</p><a href="tel:+919019181160">+91 90191 81160</a><a href="https://www.instagram.com/thesutraasarees/" target="_blank" rel="noreferrer">@thesutraasarees ↗</a></div>
+          <div className="footer-contact"><p className="eyebrow">CONNECT</p><p>SUTRA — Weaving Timeless Stories</p><p>Bengaluru, Karnataka 560076</p><p>Pan India shipping</p><a href="tel:+916361312135">+91 63613 12135</a><a href="https://www.instagram.com/thesutraasarees/" target="_blank" rel="noreferrer">@thesutraasarees ↗</a></div>
         </div>
         <div className="footer-bottom"><a className="footer-wordmark" href="#top">sutra</a><span>© 2026 Sutra. Crafted with heritage in mind.</span><a href="#top">BACK TO TOP ↑</a></div>
       </footer>

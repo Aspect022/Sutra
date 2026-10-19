@@ -15,7 +15,7 @@ type CartContextValue = {
 
 const CartContext = createContext<CartContextValue | null>(null);
 const CART_STORAGE_KEY = "sutra-shopping-bag";
-const phone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || "919019181160";
+const phone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || "916361312135";
 
 function useCart() {
   const context = useContext(CartContext);
