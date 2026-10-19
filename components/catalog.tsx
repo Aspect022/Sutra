@@ -112,7 +112,6 @@ export function Catalog({ products }: { products: Product[] }) {
             <article className="product-card" key={product.id} style={{ animationDelay: `${Math.min(index, 8) * 70}ms` }}>
               <div className="product-image-wrap">
                 <img src={product.image || "/placeholder.svg"} alt={product.name} loading="lazy" onError={(event) => { event.currentTarget.src = "/placeholder.svg"; }} />
-                <span className="product-category">{product.category === "Timeless Sarees" ? "THE SAREE EDIT" : product.category === "Luxury Fabrics" ? "THE FABRIC EDIT" : "FINISHING TOUCHES"}</span>
                 {product.available === false ? <span className="product-status">CURRENTLY UNAVAILABLE</span> : <span className="product-view" aria-hidden="true">✳</span>}
               </div>
               <div className="product-info"><div><h3>{product.name}</h3>{product.subtitle ? <p>{product.subtitle}</p> : null}</div><strong>{product.priceLabel}</strong></div>
