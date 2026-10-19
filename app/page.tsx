@@ -2,7 +2,7 @@ import { Catalog } from "@/components/catalog";
 import { CartButton } from "@/components/cart";
 import { getProducts } from "@/lib/products";
 
-const heroImage = "/sutra-campaign-hero.webp";
+const heroImage = "/sutra-hero-editorial.jpg";
 
 const collections = [
   {
@@ -77,7 +77,7 @@ export default async function Home() {
       </header>
 
       <section className="hero" id="top">
-        <div className="hero-image" style={{ backgroundImage: `url('${heroImage}')` }} role="img" aria-label="Saree drape from the Sutra collection" />
+        <div className="hero-image" style={{ backgroundImage: `url('${heroImage}')` }} role="img" aria-label="A woman in a red saree ascending a sandstone haveli staircase, her drape flowing behind her" />
         <div className="hero-wash" />
         <div className="hero-copy">
           <p className="eyebrow hero-eyebrow"><span /> EST. 2026 · BENGALURU</p>
